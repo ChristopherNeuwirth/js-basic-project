@@ -1,1 +1,1 @@
-console.log('works great');
+console.log('👉 works great')

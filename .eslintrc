@@ -1,0 +1,36 @@
+{
+  "extends": ["plugin:prettier/recommended"],
+  "root": true,
+  "ignorePatterns": ["**/*"],
+  "parserOptions": {
+    "ecmaVersion": 6,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "rules": {
+    "prettier/prettier": "error",
+    "eol-last": "error"
+  },
+  "plugins": ["prettier"],
+  "overrides": [
+    {
+      "files": ["*.ts"],
+      "rules": {
+        "max-len": [
+          "off",
+          {
+            "code": 120
+          }
+        ],
+        "no-debugger": "error",
+        "semi": "error"
+      }
+    },
+    {
+      "files": ["*.html"],
+      "rules": {}
+    }
+  ]
+}

@@ -1,4 +1,5 @@
 # Changelog
+
 All notable changes to this project will be documented in this file.
 
 <!---
@@ -14,3 +15,14 @@ and this project adheres to [Semantic Versioning](http://semver.org/).
 ### Changes
 - Things you've changed go here
 --->
+
+## [1.1.0] - 2021-09-14
+
+### Added
+
+- Added nvmrc, prettierignore, eslintrc
+
+### Changes
+
+- Migrated from TSLint to ESLint
+- Updated dependencies due to npm audit
