@@ -1,14 +1,14 @@
 {
   "name": "node-typescript-starter",
   "version": "1.1.0",
-  "description": "API",
+  "description": "",
   "main": "dist/index.js",
   "scripts": {
     "start": "node --inspect=5858 -r ts-node/register ./src/index.ts",
     "start:watch": "nodemon",
     "build": "tsc"
   },
-  "author": "Christopher Neuwirth <christopher.neuwirth@mhp.com>",
+  "author": "Christopher Neuwirth <dev@cneuwirth.de>",
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
